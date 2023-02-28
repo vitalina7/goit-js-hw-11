@@ -1,0 +1,35 @@
+.container{
+    min-width: 100vh;
+    background-color: blueviolet;
+    height: 60;
+}
+.form{
+    margin: 0 auto;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-card{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.info{
+    display: block;
+    color: black;
+}
+.info-item{
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.photo{
+    text-decoration: none;
+    margin: 10;
+}
+.load-more{
+    margin: 0 auto;
+    display: block;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}
